@@ -1,7 +1,7 @@
-(void)	puts(void)
-{
-	write(1, "Programming is like building a multilingual puzzle \n", 51)
-}
-int	main(void)
+#include <stdio.h>
 
-	puts(void);
+int	main()
+{
+	puts("Programming is like building a multilingual puzzle \n");
+	return(0);
+}
