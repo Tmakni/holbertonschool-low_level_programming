@@ -17,14 +17,10 @@ int main(void)
 	}
 
 	else if (n > 0)
-	{
 		puts("is positive");
-	}
 
 	else
-	{
 		puts("is negative");
-	}
 
 	return (0);
 }
