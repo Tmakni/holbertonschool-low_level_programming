@@ -10,7 +10,7 @@
  * Return: Always 0 (Success)
  */
 
-int	main(void)
+void	putchar(void)
 
 	{
 		write(1, "abcdefghijklmnopqrstuvwxyz", 26);
