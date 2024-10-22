@@ -10,8 +10,8 @@
  * Return: Always 0 (Success)
  */
 
-void	putchar(void)
+int	main(void)
 
 	{
-		write(1, "abcdefghijklmnopqrstuvwxyz", 26);
+		write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
 	}
