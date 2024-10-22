@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int	main ()
+int	main(void)
 {
 	int n;
 
@@ -19,5 +19,5 @@ int	main ()
 		puts("is negative");
 	}
 
-	return(0);
+	return (0);
 }
