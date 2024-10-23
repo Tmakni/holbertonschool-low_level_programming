@@ -1,6 +1,6 @@
-#ifdef MAIN_H
-#define MAIN_H
+#ifndef MAIN_HEADER_FILE
+#define MAIN_HEADER_FILE
 
-void _putchar(void);
+int _putchar(char c);
 
 #endif

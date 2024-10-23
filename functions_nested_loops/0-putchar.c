@@ -1,10 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
-void _putchar(void)
-{
-	printf("_putchar\n");
-}
 
 /**
  * main - Enty point of my code
@@ -13,6 +7,14 @@ void _putchar(void)
  */
 int main(void)
 {
-	_putchar();
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
