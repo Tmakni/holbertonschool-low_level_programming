@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main - check the code
+ * main.h - check the code
  *
  * Return: Always 0.
  */
