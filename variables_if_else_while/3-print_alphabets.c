@@ -9,5 +9,6 @@
 int main(void)
 {
 	write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
-	write(1, "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n", 27);
+	write(1, "ABCDEFGHIJKLMNOPQRSTUVWXYZ", 26);
+	return(0);
 }
