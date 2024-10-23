@@ -1,5 +1,7 @@
 #include <unistd.h>
-
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /**
@@ -9,7 +11,6 @@
  * Return: Always 0 (Success)
  */
 int	main(void)
-
 {
-	write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
+	write (1, "abcdefghijklmnopqrstuvwxyz\n", 27);
 }
