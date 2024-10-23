@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 
 /* more headers goes there */
 
@@ -9,7 +8,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int	main(void)
 
 	{
