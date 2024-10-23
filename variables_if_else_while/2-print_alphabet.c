@@ -1,12 +1,11 @@
 #include <unistd.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
- *
- * Return: Always 0 (Success)
+ * main - Prints the alphabetic
+ * Return: Always (Success)
  */
+
 int	main(void)
 {
 	write (1, "abcdefghijklmnopqrstuvwxyz\n", 27);
