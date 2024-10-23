@@ -1,7 +1,6 @@
 #include <unistd.h>
-#include <stdio.h>
 /**
- * main - Prints the alphabetic
+ * main - Prints the numbers
  * Return: Always (Success)
  */
 
@@ -9,8 +8,7 @@ int main(void)
 
 {
 
-	write(1, "123456789", 9);
-	write(1, "10\n", 3);
+	write(1, "0123456789", 10);
 	return (0);
 
 }
