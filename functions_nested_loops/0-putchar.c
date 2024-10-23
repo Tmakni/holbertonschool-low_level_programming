@@ -1,6 +1,6 @@
-#include <unistd.h>
+#include <main.h>
 /**
- * main.h - check the code
+ * main - Enty point of my code
  *
  * Return: Always 0.
  */
