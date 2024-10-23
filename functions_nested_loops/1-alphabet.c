@@ -8,5 +8,5 @@
 int main(void)
 {
 	printf("abcdefghijklmnopqrstuvwxyz\n");
-	return (0);
+	return (1);
 }
