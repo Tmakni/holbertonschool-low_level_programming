@@ -6,12 +6,9 @@
  * Return: Always (Success)
  */
 
-int     main(void)
-
-	{
-
+int main(void)
+{
 	write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
 	write(1, "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n", 27);
 	return (0);
-
-	}
+}
