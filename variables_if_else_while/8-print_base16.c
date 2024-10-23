@@ -10,7 +10,7 @@ int main(void)
 
 {
 
-	write(1, "0123456789abcdef\n", 27);
+	write(1, "0123456789abcdef\n", 17);
 	return (0);
 
 }
