@@ -1,13 +1,11 @@
-#include "main.h"
-#include "main.c"
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
+
 {
-	printf("abcdefghijklmnopqrstuvwxyz\n");
-	return (0);
+	write(1, "abcdefghijklmnopqrstuvwxyz\n", 27);
 }
