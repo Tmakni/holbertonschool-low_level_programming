@@ -1,4 +1,5 @@
 #include "main.h"
+#include "main.c"
 #include <stdio.h>
 /**
  * main - check the code
@@ -8,5 +9,5 @@
 int main(void)
 {
 	printf("abcdefghijklmnopqrstuvwxyz\n");
-	return (1);
+	return (0);
 }
