@@ -7,9 +7,11 @@
  * Return: Always 0.
  */
 int print_last_digit(int n)
+sh: 1: q: not found
 {
+
 	if (n < 0)
 		n = n * -1;
 	_putchar((n % 10) + '0');
-	return (0);
+	return (n % 10);
 }
