@@ -7,7 +7,7 @@
  * Return: Always 0.
  */
 int print_last_digit(int n)
-sh: 1: q: not found
+
 {
 
 	if (n < 0)
