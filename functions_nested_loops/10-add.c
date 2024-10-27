@@ -1,8 +1,8 @@
 #include "main.h"
 /**
 * add - fonction
-* @i: input
-* @j: input
+* @i: intput
+* @j: intput
 *
 *
 * Return: add
@@ -10,5 +10,5 @@
 int add(int i, int j)
 
 {
-	return i + j;
+	return (i + j);
 }
