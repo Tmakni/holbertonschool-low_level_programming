@@ -1,19 +1,17 @@
-#include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 /**
- * print_numbers - check the code
- * @i : input
- * Return: Always 0.
+ * print_numbers - The numbers speak for themselves
+ * Description: print 0 a 0
+ * Return: rien
  */
 void print_numbers(void)
 {
-int i;
+	int i = 0;
 
-i = 0;
-	while (i >= '0' && i <= '9')
+	while (i <= '9')
 	{
-		write(1, &i, 1);
+		putchar(i);
 		i++;
 	}
-	write(1, "\n", 1);
+	putchar('\n');
 }
