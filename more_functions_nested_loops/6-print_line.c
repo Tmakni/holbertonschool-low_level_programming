@@ -1,5 +1,6 @@
 #include "main.h"
 #include <unistd.h>
+#include <stdio.h>
 /**
  * print_line - The shortest distance between two points is a straight line
  * Description: print _
@@ -9,11 +10,9 @@
 void print_line(int n)
 {
 	int i;
+
 	if (n > 0)
-	while (i = '0' && i < n)
-	{
-		_putchar('_');
-		_putchar('\n');
-		i++;
-	}
+		for (i = 0; i < n; i++)
+			putchar('_');
+	putchar('\n');
 }
