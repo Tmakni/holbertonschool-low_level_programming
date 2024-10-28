@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <unistd.h>
 /**
  * print_line - The shortest distance between two points is a straight line
  * @n: input
@@ -10,8 +12,8 @@ void print_line(int n)
 
 	while (line < n)
 	{
-		putchar('_');
+		_putchar('_');
 		line++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
