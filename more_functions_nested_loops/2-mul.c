@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * nul - check a + b
+ * mul - check a + b
  * @a : input
  * @b : input
- * Return: a + b
+ * Return: Always 0.
  */
 int mul(int a, int b)
 {
