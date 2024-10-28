@@ -1,15 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 #include <unistd.h>
 /**
  * print_line - The shortest distance between two points is a straight line
  * @n: input
- * Return: 0
+ * Return: rien
  */
 void print_line(int n)
 {
-	int i = 0;
-	
+	int i;
+
+	i = 0;
 	if (n <= 0)
 	{
 		write(1, "\n", 1);
