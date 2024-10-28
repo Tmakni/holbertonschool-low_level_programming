@@ -3,7 +3,7 @@
  * nul - check a + b
  * @a : input
  * @b : input
- * Return: Always 0
+ * Return: a + b
  */
 int mul(int a, int b)
 {
