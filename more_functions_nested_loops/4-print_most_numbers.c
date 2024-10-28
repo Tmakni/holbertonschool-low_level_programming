@@ -7,5 +7,5 @@
  */
 void print_most_numbers(void)
 {
-	write(1, "1356789\n", 8);
+	write(1, "1356789\n", 9);
 }
