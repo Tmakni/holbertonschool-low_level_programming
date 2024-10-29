@@ -1,8 +1,8 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * print_diagonal - check the code
- * @n: compteur
+ * print_square - check the code
+ * @size: compteur
  * return: rien
  */
 void print_square(int size)
