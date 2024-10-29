@@ -12,10 +12,9 @@ void print_square(int size)
 	{
 		write(1, "\n", 1);
 	}
-	int j;
 	while (i < size)
 	{
-		j = 0;
+		int j = 0;
 		while(j < size)
 		{
 			write(1, "#", 1);
