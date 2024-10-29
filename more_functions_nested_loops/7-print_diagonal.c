@@ -9,7 +9,6 @@
 void print_diagonal(int n)
 {
 	int i;
-	int j;
 
 	i = 0;
 	if (n < 0)
@@ -18,7 +17,7 @@ void print_diagonal(int n)
 	}
 		while (i < n)
 		{
-			j = 0;
+			int j = 0;
 			while (j < i)
 			{
 				write(1, " ", 1);
