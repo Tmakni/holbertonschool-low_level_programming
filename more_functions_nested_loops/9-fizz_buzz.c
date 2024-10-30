@@ -1,6 +1,5 @@
 #include <unistd.h>
 #include <stdio.h>
-#include "main.c"
 /**
  * FizzBuzz - check the code
  * @i: compteur
