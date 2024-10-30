@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include "main.c"
 /**
  * rev_string - string reverse
  * @s: caractere
@@ -10,11 +11,11 @@ void rev_string(char *s)
 
 	while (s[i] != '\0')
 	{
-		write(1, &s[i], 1);
-		i++;
+		i--;;
 	}
 	while (i > 0)
 	{
-		i--;
+		i++;
+		write(1, &s[i], 1);
 	}
 }
