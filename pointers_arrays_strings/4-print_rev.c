@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "main.c"
-
+/**
+ * print_rev - print a string in reverse
+ * @s: char array string type
+ */
 void print_rev(char *s)
 {
 	int i = 0;
