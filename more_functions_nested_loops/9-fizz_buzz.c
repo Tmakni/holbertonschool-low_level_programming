@@ -36,8 +36,3 @@ void FizzBuzz(int i)
 	}
 	printf("\n");
 }
-int main()
-{
-	FizzBuzz(100);
-	return (0);
-}
