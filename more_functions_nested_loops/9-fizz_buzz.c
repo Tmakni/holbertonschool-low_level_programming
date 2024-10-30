@@ -1,6 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
-#include "main.h"
+#include "main.c"
 /**
  * FizzBuzz - check the code
  * @i: compteur
@@ -37,4 +37,3 @@ void FizzBuzz(int i)
 	}
 	printf("\n");
 }
-
