@@ -1,7 +1,11 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "main.h"
-
+/**
+ * FizzBuzz - check the code
+ * @i: compteur
+ * return: rien
+ */
 void FizzBuzz(int i)
 {
 	i = 1;
@@ -32,9 +36,4 @@ void FizzBuzz(int i)
 	i++;
 	}
 	printf("\n");
-}
-int main()
-{
-	FizzBuzz(100);
-	return 0;
 }
