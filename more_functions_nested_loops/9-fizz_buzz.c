@@ -1,13 +1,12 @@
-#include <unistd.h>
 #include <stdio.h>
 /**
  * FizzBuzz - check the code
  * @i: compteur
  * return: rien
  */
-void FizzBuzz(int i)
+void FizzBuzz(void)
 {
-	i = 1;
+	int i = 1;
 
 	while (i <= 100)
 	{
@@ -35,4 +34,9 @@ void FizzBuzz(int i)
 	i++;
 	}
 	printf("\n");
+}
+int main(void)
+{
+	FizzBuzz();
+	return 0;
 }
