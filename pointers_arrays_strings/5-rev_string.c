@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "main.c"
+
 /**
  * rev_string - string reverse
  * @s: caractere
