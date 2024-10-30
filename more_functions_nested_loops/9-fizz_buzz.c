@@ -5,9 +5,30 @@
 void FizzBuzz(int i)
 {
 	i = 1;
+
 	while (i <= 100)
 	{
-		write(1, &i, 1);
+	if (i % 15 == 0)
+	{
+		printf(" FizzBuzz ");
 	}
-	write(1, "\n", 1);
+	else if (i % 3 == 0)
+	{
+		printf(" Fizz ");
+	}
+	else if (i % 5 == 0)
+	{
+		printf(" Buzz ");
+	}
+	else
+	{
+		printf("%d\n", i);
+	}
+	i++;
+	}
+}
+int main()
+{
+	FizzBuzz(100);
+	return 0;
 }
