@@ -1,25 +1,24 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * rev_string - string reverse
- * @s: caractere
+ * rev_string - print reverse characters.
+ * @s: validate the character
+ * Return: Always 0.
  */
 void rev_string(char *s)
 {
-	int i = 0;
-	int j;
-	char tmp;
+	int i = 0, a = 0, Aux;
+
 
 	while (s[i] != '\0')
 	{
 		i++;
 	}
-	j = i;
-	while (i > 0)
+	i--;
+	while (i > a)
 	{
-		tmp = s[j];
-		s[j] = s;
-		s[i - 1 ] = tmp;
-		I--;
+		Aux = s[i];
+		s[i--] = s[a];
+		s[a++] = Aux;
 	}
 }
