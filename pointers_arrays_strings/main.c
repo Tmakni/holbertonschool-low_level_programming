@@ -2,10 +2,11 @@
 
 int main(void)
 {
-    char s[10] = "My School";
+    char buffer[98] = {0x00};
 
-    printf("%s\n", s);
-    rev_string(s);
-    printf("%s\n", s);
+    simple_print_buffer(buffer, 98);
+    _memset(buffer, 0x01, 95);
+    printf("-------------------------------------------------\n");
+    simple_print_buffer(buffer, 98);    
     return (0);
 }
