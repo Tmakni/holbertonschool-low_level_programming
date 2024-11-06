@@ -1,5 +1,5 @@
 /**
- * _menset - file memory
+ * _memset - file memory
  * @s: sting
  * @b: acrementation
  * @n: decompteur
