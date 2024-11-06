@@ -1,10 +1,10 @@
 /**
- * _menset - file
+ * _menset - file memory
  * @s: sting
  * @b: acrementation
  * @n: decompteur
- * Description: fill memory poiteur string
- * Return: 1
+ * Desc: print memory s
+ * Return: pointeur
  */
 
 char *_memset(char *s, char b, unsigned int n)
