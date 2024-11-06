@@ -1,5 +1,5 @@
 /**
- * *_menset - 
+ * _menset - file
  * @s: sting
  * @b: acrementation
  * @n: decompteur
@@ -8,7 +8,7 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i = 0;
+	int i = 0;
 
 	while(n > 0)
 	{
@@ -17,5 +17,4 @@ char *_memset(char *s, char b, unsigned int n)
 		i++;
 	}
 	return (s);
-
 }
