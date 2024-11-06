@@ -3,19 +3,26 @@
  * @s: string
  * @accept: compteur
  * Desc: print memory s
- * Return: 0
+ * Return: 1
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	char *f = s;
-	char *n = f;
-	while (*s != '\0')
-	{
-		n++;
+	int i = 0;
+	int j;
+	int compt = 0;
+	while (s[i] != '\0')
+	{	
+		j = 0;
+		while (accept[j] != '\0')
+		{
+			if (s[i] == accept[j])
+			{
+				compt++;
+				break;
+			}
+			j++;
+		}
+		i++;
 	}
-	while (*f != '\0')
-	{
-		n++;
-	}
-	return (0);
+	return (compt);
 }
