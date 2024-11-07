@@ -11,9 +11,9 @@ void _print_rev_recursion(char *s)
 
 	if (s[i] == '\0')
 	{
-		write(1, &s[i], 1);
-		return;
+		return(s - 1);
 	}
+	write(1, &s[i], 1);
 	_print_rev_recursion(s - 1);
 }
 int main(void)
