@@ -1,9 +1,10 @@
 void _puts_recursion(char *s)
 {
-	int i;
-
-	while (s[i] != '\0')
+	if (*s == '\0')
 	{
-		write(1, &s[i], 1);
+		write(1, "\n", 1);
+		return;
 	}
+	putchar(*s);
+	_puts_recursion(s + 1);
 }
