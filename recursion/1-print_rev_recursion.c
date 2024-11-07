@@ -9,8 +9,9 @@ void _print_rev_recursion(char *s)
 {
 	int i = 0;
 
-	if (s[i] > '\0')
+	if (s[i] < '\0')
 	{
+		write(1, &s[i], 1);
 		return;
 	}
 	write(1, &s[i], 1);
