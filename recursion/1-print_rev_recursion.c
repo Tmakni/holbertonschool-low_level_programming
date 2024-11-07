@@ -11,13 +11,8 @@ void _print_rev_recursion(char *s)
 
 	if (s[i] == '\0')
 	{
-		return(s - 1);
+		return;
 	}
 	write(1, &s[i], 1);
 	_print_rev_recursion(s - 1);
-}
-int main(void)
-{
-    _print_rev_recursion("\nColton Walker");
-    return (0);
 }
