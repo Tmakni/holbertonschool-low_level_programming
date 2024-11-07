@@ -16,3 +16,9 @@ void _print_rev_recursion(char *s)
 	_print_rev_recursion(s + 1);
 	write(1, &s[i], 1);
 }
+
+int main(void)
+{
+    _print_rev_recursion("\nColton Walker");
+    return (0);
+}
