@@ -1,5 +1,5 @@
 /**
- * _strspn - file memory
+ * _strpbrk - file memory
  * @s: string
  * @accept: string
  * Desc: print memory s
