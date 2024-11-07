@@ -13,6 +13,6 @@ void _print_rev_recursion(char *s)
 	{
 		return;
 	}
-	write(1, &s[i], 1);
 	_print_rev_recursion(s - 1);
+	write(1, &s[i], 1);
 }
