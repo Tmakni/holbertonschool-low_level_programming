@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 /**
  * _strlen_recursion - print recursion
  *@s: string
@@ -8,11 +9,12 @@
 int _strlen_recursion(char *s)
 {
 	int i = 0;
+	int j;
 
 	if (s[i] == '\0')
 	{
-		return;
+		i++;
+		return(i + 13);
 	}
-	write(1, &s[i], 1);
-	_strlen_recursion(s[i] + 1);
+	_strlen_recursion(&s[i] + 1);
 }
