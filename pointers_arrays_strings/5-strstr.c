@@ -1,3 +1,10 @@
+/**
+ * _strstr - file memory
+ * @haystack: string
+ * @needle: string
+ * Desc: print memory
+ * Return: 1
+ */
 char *_strstr(char *haystack, char *needle)
 {
 	int i = 0;
