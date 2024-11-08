@@ -1,3 +1,9 @@
+/**
+ * factorial - recursio,
+ *@n: var
+ *Desc: factorial
+ * Return: 1
+ */
 int factorial(int n)
 {
 	if (n < 0)
@@ -6,10 +12,10 @@ int factorial(int n)
 	}
 	else if (n < 2)
 	{
-		return(n);
+		return (n);
 	}
 	else
 	{
-		return(n * factorial(n - 1));
+		return (n * factorial(n - 1));
 	}
 }
