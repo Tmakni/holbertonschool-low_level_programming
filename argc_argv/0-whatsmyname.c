@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - print num
- * @argc: argument 
- * @argv: argument 
+ * @argc: argument
+ * @argv: argument
  * Return: 1
  */
 
