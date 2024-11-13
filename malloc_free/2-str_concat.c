@@ -1,12 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+
 /**
- * *str_concat - malloc
- * @s1: string
- * @s2: string
+ * str_concat - malloc
+ * @s1: first string
+ * @s2: second string
  *
- * Return: 1
+ * Return: pointeur
  */
 char *str_concat(char *s1, char *s2)
 {
