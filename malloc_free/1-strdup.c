@@ -9,9 +9,9 @@ char *_strdup(char *str)
 {
 	unsigned int i = 0;
 
-	if (str == 0)
+	if (str == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	while (str[i] != '\0')
@@ -21,9 +21,9 @@ char *_strdup(char *str)
 
 	char *dup_str = malloc(sizeof(char) * (i + 1));
 
-	if (dup_str == 0)
+	if (dup_str == NULL)
 	{
-		return (0);
+		return (NULL);
 	}
 
 	unsigned int j = 0;
