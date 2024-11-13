@@ -5,7 +5,7 @@
  * *str_concat - malloc
  * @s1: string
  * @s2: string
- * Desc: malloc
+ *
  * Return: 1
  */
 char *str_concat(char *s1, char *s2)
@@ -23,9 +23,7 @@ char *str_concat(char *s1, char *s2)
 
 	p = malloc(sizeof(char) * (len1 + len2 + 1));
 	if (p == NULL)
-	{
 		return (NULL);
-	}
 
 	i = 0;
 	while (i < len1)
