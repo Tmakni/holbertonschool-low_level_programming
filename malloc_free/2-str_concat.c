@@ -1,44 +1,52 @@
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * str_concat - malloc
- * @s1: first string
- * @s2: second string
- *
- * Return: pointeur
- */
+* *str_concat - that concatenates two strings
+* @s1: variable 1 type char
+* @s2: variable 2 type char
+* Return: pointer
+*/
+
 char *str_concat(char *s1, char *s2)
 {
-	char *p;
-	unsigned int i, j, len1, len2;
+	int tams1 = 0, tams2 = 0, i = 0, j = 0, size = 0;
+	char *s3;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-
-	len1 = strlen(s1);
-	len2 = strlen(s2);
-
-	p = malloc(sizeof(char) * (len1 + len2 + 1));
-	if (p == NULL)
-		return (NULL);
-
-	i = 0;
-	while (i < len1)
+	while (s1[i] != '\0')
 	{
-		p[i] = s1[i];
 		i++;
 	}
+	tams1 = i;
 
-	j = 0;
-	while (j < len2)
+	while (s2[j] != '\0')
 	{
-		p[i + j] = s2[j];
 		j++;
 	}
+	tams2 = j;
+	size = tams1 + tams2 + 1;
 
-	p[i + j] = '\0';
+	s3 = malloc(size * sizeof(char));
+	i = 0, j = 0;
 
-	return (p);
+	if (s3 == NULL)
+	{
+		return (NULL);
+	}
+	while (s1[i] != '\0')
+	{
+	s3[i] = s1[i];
+	i++;
+	}
+	while (s2[j] != '\0')
+	{
+	s3[i + j] = s2[j];
+	j++;
+	}
+	s3[i + j] = '\0';
+	return (s3);
 }
