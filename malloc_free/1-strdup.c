@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * *_strdup - malloc
@@ -28,7 +27,6 @@ char *_strdup(char *str)
 	}
 
 	unsigned int j = 0;
-
 	while (j < i)
 	{
 		dup_str[j] = str[j];
