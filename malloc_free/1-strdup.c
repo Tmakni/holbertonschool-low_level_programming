@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * *_strdup - malloc
  * @str: string
@@ -8,6 +9,8 @@
 char *_strdup(char *str)
 {
 	unsigned int i = 0;
+	char *dup_str;
+	unsigned int j;
 
 	if (str == NULL)
 	{
@@ -19,14 +22,14 @@ char *_strdup(char *str)
 		i++;
 	}
 
-	char *dup_str = malloc(sizeof(char) * (i + 1));
+	dup_str = malloc(sizeof(char) * (i + 1));
 
 	if (dup_str == NULL)
 	{
 		return (NULL);
 	}
 
-	unsigned int j = 0;
+	j = 0;
 	while (j < i)
 	{
 		dup_str[j] = str[j];
