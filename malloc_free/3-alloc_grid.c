@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+/**
+* **alloc_grid - fonction
+* @width: variable 1
+* @height: variable 2
+* Return: pointer
+*/
+
 int **alloc_grid(int width, int height)
 {
 	int i = 0;
