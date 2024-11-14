@@ -5,6 +5,7 @@
 * **alloc_grid - fonction
 * @width: variable 1
 * @height: variable 2
+* Desc: String
 * Return: pointer
 */
 
