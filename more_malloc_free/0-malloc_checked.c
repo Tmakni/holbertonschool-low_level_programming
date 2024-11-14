@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <stdlib.H>
+/**
+* malloc_checked - function
+* @b: variable
+* Return: pointer
+*/
+
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
