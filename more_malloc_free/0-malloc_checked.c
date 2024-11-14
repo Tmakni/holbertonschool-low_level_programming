@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.H>
+#include <stdlib.h>
+#include <limits.h>
 /**
 * malloc_checked - function
 * @b: variable
