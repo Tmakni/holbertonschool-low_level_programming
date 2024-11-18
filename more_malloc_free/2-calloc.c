@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h²"
+#include <string.h>
 /**
  * _calloc - allocates memory
  * @nmemb: number
@@ -10,17 +10,19 @@
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int *p;
+	void *arr;
 	unsigned int i;
+	char *k;
 
-	if (nmemb <= 0 || size <= 0)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
 
-	p = malloc(nmemb * size);
-	if (p == NULL)
+	arr = malloc(size * nmemb);
+	if (arr == NULL)
 		return (NULL);
-	for (i = 0; i < nmemb; i++)
-		p[i] = 0;
 
-	return (p);
+	k = arr;
+	for (i = 0; i < nmemb * size; i++)
+		k[i] = 0;
+	return (arr);
 }
