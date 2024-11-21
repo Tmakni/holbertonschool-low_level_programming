@@ -1,4 +1,7 @@
 #include "variadic_functions.h"
+#include <stdio.h>
+
+
 /**
  * print_numbers - Imprime des nombres suivis d'une nouvelle ligne.
  * @separator: Chaîne à afficher entre les nombres.
@@ -15,17 +18,17 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n);
 
+	i = 0;
 	while (i < n)
 	{
 		num = va_arg(args, int);
 		printf("%d", num);
 			if (separator != NULL && i < n - 1)
 		{
-			printf("%d", num);
+			printf("%s", separator);
 		}
 		i++;
 	}
 	printf("/n");
-
 	va_end(args);
 }
