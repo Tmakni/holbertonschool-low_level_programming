@@ -1,7 +1,6 @@
-#include "variadic_functions.h"
 #include <stdio.h>
-
-
+#include <stdlib.h>
+#include <stdarg.h>
 /**
  * print_numbers - Imprime des nombres suivis d'une nouvelle ligne.
  * @separator: Chaîne à afficher entre les nombres.
@@ -29,6 +28,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		}
 		i++;
 	}
-	printf("/n");
 	va_end(args);
+	printf("/n");
 }
