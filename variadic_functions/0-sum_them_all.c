@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 /**
  * sum_them_all - Adds all its parameters.
  * @n: The number of parameters passed to the function.
