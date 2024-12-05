@@ -3,19 +3,24 @@
 #include <string.h>
 #include "lists.h"
 
+/**
+ * print_list - fonction
+ * @h: heqd
+ * Return: 1
+ */
 size_t print_list(const list_t *h)
 {
-	size_t node_count = 0; // Initialisation du compteur
+	size_t node_count = 0;
 
-	while (h != NULL) // Tant qu'il y a des nœuds dans la liste
+	while (h != NULL)
 	{
-		if (h->str == NULL) // Si la chaîne est NULL
+		if (h->str == NULL)
 		printf("[0] (nil)\n");
-	else // Sinon, afficher la longueur et la chaîne
+	else
 		printf("[%u] %s\n", h->len, h->str);
 
-	node_count++; // Incrémenter le compteur de nœuds
-	h = h->next;  // Passer au prochain nœud
+	node_count++;
+	h = h->next;
 	}
-	return node_count; // Retourner le nombre total de nœuds
+	return (node_count);
 }
