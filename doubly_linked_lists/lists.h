@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 /**
- * struct list_s - structure pour une liste chaînée simple
+ * struct dlistint_s - structure pour une liste chaînée simple
  * @str: chaîne de caractères (dynamique ou statique)
  * @len: longueur de la chaîne
  * @next: pointeur vers le nœud suivant
