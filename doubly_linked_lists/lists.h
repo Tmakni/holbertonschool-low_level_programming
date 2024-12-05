@@ -4,13 +4,13 @@
 #include <stddef.h>
 
 /**
- * struct dlistint_s - structure pour une liste chaînée simple
- * @n: chaîne de caractèr
- * @prev: longueur de la chaîne
- * @next: pointeur vers le nœud suivant
+ * struct dlistint_s - structure pour une liste chaînédouble
+ * @n: chaîne de caract�
+ * @prev: longueur de la chaîn
+ * @next: pointeur vers le nœud suivan
  */
 
-typedef struct list_s
+typedef struct dlistint_s
 {
 	int n;
 	struct dlistint_s *prev;
